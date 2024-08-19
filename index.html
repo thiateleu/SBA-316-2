@@ -9,8 +9,47 @@
 </head>
 
 <body>
-    <h1>Welcome</h1>
-    <div id="content"></div>
+    <nav>
+        <ul>
+            <li><a href="about">About</a></li>
+            <li><a href="service">Service</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="login">Login</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Thiateleu Cleaning Compagy is created since 2021</p>
+    </section>
+
+
+    <section id="service">
+        <h2>Our Services</h2>
+        <p>We offer a variety Cleaning services </p>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="conctForm">
+
+            <input type="text" name="nameInput" placeholder="enter your Name" required /><br>
+            <input type="email" name="emailInput" placeholder=" enter you Email" required /><br>
+            <input type="message" name="messageInput " placeholder="enter your message" /><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" name="usernameInput" placeholder="enter your userName" required /><br>
+            <input type="password" name="passwordInput" placeholder=" enter you password" required /><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
 
     <script src="./script.js"></script>
 </body>
